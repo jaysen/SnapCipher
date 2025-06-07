@@ -25,10 +25,11 @@ SnapCipher transforms a message into a scrambled, abstract image that reveals it
 
 ## 🧠 Algorithm Goals
 
+- Begin with QR codes with encrypted text.
+- Next implement **black-and-white encoding** to simplify initial tests.
 - Use **relative pixel positions** and **binary dot patterns** for data encoding.
 - Apply **pseudo-random transformations** seeded by a user-provided key.
 - Integrate **error correction** and **redundancy** for resilience.
-- Begin with **black-and-white encoding** to simplify initial tests.
 
 ---
 
